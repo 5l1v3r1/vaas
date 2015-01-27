@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+# gem 'json', '~> 1.8.1'
+# gem 'metasploit-framework-full', github: 'rapid7/metasploit-framework'
+# gem 'metasploit-concern'
+gem 'sinatra'
+# gem 'unicorn'
+gem 'thin'
+gem 'pry'
+gem 'redis'
+gem 'rack'
+# gem 'multi_json', '~> 1.0.4'

